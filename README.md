@@ -16,10 +16,6 @@ It also prints the average ping time for the host. It tests the following CDNs:
 * [JavaScript-библиотеки](https://tech.yandex.ru/jslibs/) by [Yandex](https://www.yandex.com/)
 * [cdnjs](https://cdnjs.com/about) powered by [CloudFlare](https://www.cloudflare.com/)
 
-Tested CDNs
-===========
-
-
 Prerequisites
 =============
 * [Bash](http://www.gnu.org/software/bash/) (probably any sh-compatible shell)
