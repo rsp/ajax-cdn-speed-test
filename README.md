@@ -11,8 +11,9 @@ How it works
 It downloads a minified version of jQuery 2.1.3 over HTTP and displays download time.
 It also prints the average ping time for the host. It tests the following CDNs:
 
-* [Microsoft Ajax Content Delivery Network](https://www.asp.net/ajax/cdn)
 * [Google Hosted Libraries](https://developers.google.com/speed/libraries/)
+* [Microsoft Ajax Content Delivery Network](https://www.asp.net/ajax/cdn)
+* [JavaScript-библиотеки](https://tech.yandex.ru/jslibs/) by [Yandex](https://www.yandex.com/)
 * [cdnjs](https://cdnjs.com/about) powered by [CloudFlare](https://www.cloudflare.com/)
 
 Tested CDNs
