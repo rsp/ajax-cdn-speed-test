@@ -8,24 +8,19 @@ urls="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js \
       //yastatic.net/jquery/2.1.3/jquery.min.js \
       //cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"
 
-protocol=http
 pings=5
 interval=0.2
-# curlstats="connect: %{time_connect}s\n\
-# namelookup: %{time_namelookup}s\n\
-# pretransfer: %{time_pretransfer}\n\
-# starttransfer: %{time_starttransfer}s\n\
-# redirect: %{time_redirect}s\n\
-# total: %{time_total}s\n"
-curlstats="total download: %{time_total}s\n"
 
 for url in $urls
 do
+    echo -e "\n$url"
+	for protocol in http https
+	do
+	    purl="$protocol:$url"
+	    curl -Lo /dev/null -skw "$protocol download:\t%{time_total}s\n" $purl
+	done
 	host=`echo $url | cut -d/ -f3`
-    purl="$protocol:$url"
-    echo -e "\n$purl"
-    curl -Lo /dev/null -skw "$curlstats" $purl
 	avgping=`ping -c $pings -i $interval $host | tail -1 | cut -d/ -f 5`
-    echo "average ping: $avgping"
+    echo -e "average ping:\t$avgping"
 done
 

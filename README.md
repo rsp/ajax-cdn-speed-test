@@ -8,8 +8,8 @@ Usage
 
 How it works
 ============
-It downloads a minified version of jQuery 2.1.3 over HTTP and displays download time.
-It also prints the average ping time for the host. It tests the following CDNs:
+It downloads a minified version of jQuery 2.1.3 over HTTP and HTTPS and displays download time.
+It also prints the average ping round-trip time for the host. It tests the following CDNs:
 
 * [Google Hosted Libraries](https://developers.google.com/speed/libraries/)
 * [Microsoft Ajax Content Delivery Network](https://www.asp.net/ajax/cdn)
@@ -20,6 +20,7 @@ Prerequisites
 =============
 * [Bash](http://www.gnu.org/software/bash/) (probably any sh-compatible shell)
 * [cURL](http://curl.haxx.se/)
+* [ping](http://en.wikipedia.org/wiki/Ping_%28networking_utility%29)
 
 Author
 ======
