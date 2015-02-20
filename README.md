@@ -19,6 +19,7 @@ It also prints the average ping round-trip time for the host. It tests the follo
 
 * [Google Hosted Libraries](https://developers.google.com/speed/libraries/)
 * [Microsoft Ajax Content Delivery Network](https://www.asp.net/ajax/cdn)
+* [jQuery CDN](https://code.jquery.com/)
 * [JavaScript-библиотеки](https://tech.yandex.ru/jslibs/) by [Yandex](https://www.yandex.com/)
 * [jsDelivr](http://www.jsdelivr.com/) multi-CDN infrastructure
 * [cdnjs](https://cdnjs.com/about) powered by [CloudFlare](https://www.cloudflare.com/)
