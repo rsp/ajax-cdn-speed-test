@@ -1,4 +1,4 @@
-# [ajax-cdn-speed-test](ajax-cdn-speed-test)
+# [ajax-cdn-speed-test](https://github.com/rsp/ajax-cdn-speed-test)
 
 This program tests the speed of various free CDNs (content delivery networks)
 that can be used for including JavaScript libraries in your websites
