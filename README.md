@@ -40,3 +40,9 @@ Author
 License
 =======
 This program is open source / free software. See: LICENSE for details.
+
+Download
+========
+The latest version is available on GitHub:
+
+https://github.com/rsp/ajax-cdn-speed-test
