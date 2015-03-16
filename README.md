@@ -17,12 +17,16 @@ the right CDN for local demographics.
 
 Installation
 ============
-`wget https://raw.githubusercontent.com/rsp/ajax-cdn-speed-test/master/ajax-cdn-speed-test`
-`chmod a+x ajax-cdn-speed-test`
+```
+wget https://raw.githubusercontent.com/rsp/ajax-cdn-speed-test/master/ajax-cdn-speed-test
+chmod a+x ajax-cdn-speed-test
+```
 
 Usage
 =====
-`ajax-cdn-speed-test`
+```
+ajax-cdn-speed-test
+```
 
 How it works
 ============
