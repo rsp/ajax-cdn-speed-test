@@ -6,9 +6,19 @@ that can be used for including JavaScript libraries in your websites
 
 It is a simple shell script that I wrote to quickly compare the speed of two CDNs.
 After I wrote it I learned about the [CDNperf](https://www.cdnperf.com/) website
-which is much more useful than this script. What this script does, however,
-is tell you what are the numbers for your particular location in this given instant,
-which may be interesting to someone.
+which is may be more useful than this script in general.
+
+What this script does, however, is tell you what are the numbers for
+**your particular location** in this given instant, which may be interesting to someone.
+Using this script I have seen very different results than what is shown on CDNperf.
+For example Microsoft CDN that according to CDNperf is the fastest, is usually the slowest
+one for me (tested from Warsaw, Poland) which is an important information when choosing
+the right CDN for local demographics.
+
+Installation
+============
+`wget https://raw.githubusercontent.com/rsp/ajax-cdn-speed-test/master/ajax-cdn-speed-test`
+`chmod a+x ajax-cdn-speed-test`
 
 Usage
 =====
