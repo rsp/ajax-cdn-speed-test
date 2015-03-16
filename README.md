@@ -6,7 +6,7 @@ that can be used for including JavaScript libraries in your websites
 
 It is a simple shell script that I wrote to quickly compare the speed of two CDNs.
 After I wrote it I learned about the [CDNperf](https://www.cdnperf.com/) website
-which is may be more useful than this script in general.
+which may be more useful than this script in general.
 
 What this script does, however, is tell you what are the numbers for
 **your particular location** in this given instant, which may be interesting to someone.
